@@ -1,0 +1,104 @@
+.button 
+ padding: 17px 25px
+ color: #202020
+ font-size: 14px
+ font-weight: 700
+ border-radius: 100px
+ border: none
+ background-color: #ffdc38
+ outline: none !important
+ cursor: pointer
+ &:hover 
+  content: '' 
+  background-color: #ffbb38
+  box-shadow: 0 0 10px rgba(0,0,0,0.5)
+  outline: none !important
+ &-big 
+  padding: 17px 30px
+  font-size: 16px
+  font-weight: 700
+  color: #202020
+  border-radius: 100px
+  border: none
+  background-color: #ffdc38
+  outline: none !important
+  cursor: pointer
+  &:hover 
+   content: '' 
+   background-color: #ffbb38
+   box-shadow: 0 0 10px rgba(0,0,0,0.5)
+   outline: none
+ &-other 
+  padding: 17px 53px
+  font-size: 16px
+  font-weight: 700
+  color: #202020
+  border-radius: 100px
+  border: none
+  background-color: #ffdc38
+  outline: none
+  cursor: pointer
+  &:hover 
+   content: '' 
+   background-color: #ffbb38
+   box-shadow: 0 0 10px rgba(0,0,0,0.5)
+   outline: none
+   
+
+.a 
+ color: rgba(255, 255, 255, 0.5)
+ font-size: 19px
+ font-weight: 700
+ outline: none
+ &:hover
+  text-decoration: none  
+
+.section-title 
+ text-align: center
+ color:  #202020
+ font-size: 26px
+ font-weight: 600 
+ text-transform: uppercase
+ &::after
+  content: ''
+  margin-top: 12px
+  display: block
+  height: 6px
+  background: url(../img/title-line.png) center no-repeat
+
+.form 
+ &-input 
+  width: 100%
+  text-align: center
+  &:before 
+   content: ''
+   position: absolute 
+  &__user 
+   width: 100%
+   max-width: 301px
+   display: inline-block
+   padding: 19px 90px 19px 53px 
+   border-radius: 100px
+   border: none
+   margin-bottom: 15px
+   outline: none
+   background: #fff url(../img/user-icon.png) no-repeat left
+   background-position: 20px
+   background-size: 8% auto
+  &__phone 
+   width: 100%
+   max-width: 301px
+   display: inline-block
+   padding: 19px 40px 19px 53px
+   border-radius: 100px
+   border: none
+   margin-bottom: 26px
+   outline: none
+   background: #fff url(../img/phone-icon.png) no-repeat left
+   background-position: 20px
+   background-size: 8% auto
+
+
+input:active
+ &:required
+  border: 1px solid red

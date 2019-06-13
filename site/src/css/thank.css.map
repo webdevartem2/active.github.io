@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,MAAM,AAAC,CACN,QAAQ,CAAE,KAAK,CAEJ",
+    "sources": [
+        "../sass/thank.sass"
+    ],
+    "names": [],
+    "file": "thank.css"
+}
